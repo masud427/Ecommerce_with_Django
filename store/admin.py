@@ -23,6 +23,6 @@ class UserAdmin(admin.ModelAdmin):
 
 # Unregister the old way
 admin.site.unregister(User)
-
+  
 # Re-Register the new way
 admin.site.register(User, UserAdmin)
